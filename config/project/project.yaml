@@ -1,0 +1,22 @@
+dateModified: 1712486686
+email:
+  fromEmail: anuar@hey.com
+  fromName: 'CraftCMS Goodkit'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    6c8dfb37-039b-487a-8d0a-8339c35857d7: 'CraftCMS Goodkit' # CraftCMS Goodkit
+    12b1eba7-eba9-4a9d-b427-47a4b9951704: 'CraftCMS Goodkit' # CraftCMS Goodkit
+system:
+  edition: solo
+  live: true
+  name: 'CraftCMS Goodkit'
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
