@@ -1,18 +1,74 @@
-dateModified: 1712486686
+dateModified: 1712487884
 email:
   fromEmail: anuar@hey.com
   fromName: 'CraftCMS Goodkit'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  mediaImages:
+    hasUrls: true
+    name: 'Media Images'
+    settings:
+      path: '@filesystemPath/images'
+    type: craft\fs\Local
+    url: '@filesystemUrl/images'
+  mediaVideos:
+    hasUrls: true
+    name: 'Media Videos'
+    settings:
+      path: '@filesystemPath/videos'
+    type: craft\fs\Local
+    url: '@filesystemUrl/videos'
 meta:
   __names__:
     6c8dfb37-039b-487a-8d0a-8339c35857d7: 'CraftCMS Goodkit' # CraftCMS Goodkit
     12b1eba7-eba9-4a9d-b427-47a4b9951704: 'CraftCMS Goodkit' # CraftCMS Goodkit
+    391346c0-6543-451a-a3a5-9529fac63e3f: Simple # Simple
+    a23bbdd9-a1f0-45c6-abe2-23554ce14258: Videos # Videos
+    db778210-0abd-4ebf-a5a5-e90e9735dfd6: Images # Images
+    e2883553-ca03-48ee-865e-a78933ec0067: Caption # Caption
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  hyper:
+    edition: standard
+    enabled: true
+    licenseKey: ITMQCLCKO54QZKRXOBUS6RZJ
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: VYJ1I9S1IFXETM0XCZ8O2D5G
+    schemaVersion: 2.1.0
+  query:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: VGLEPE3J9JMEZSTIF1R7B9SN
+    schemaVersion: 3.0.12
+  splashing-images:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
+    settings:
+      destination: '1'
+      folder: unsplash
+      pluginLabel: Unsplash
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
   name: 'CraftCMS Goodkit'
+  retryDuration: null
   schemaVersion: 5.0.0.20
-  timeZone: America/Los_Angeles
+  timeZone: America/Mexico_City
 users:
   allowPublicRegistration: false
   defaultGroup: null

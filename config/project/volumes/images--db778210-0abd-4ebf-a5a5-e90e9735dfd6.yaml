@@ -1,0 +1,74 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  cd1a357a-792b-4c23-b77f-0b5ed54f1776:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: e5cc945a-b76e-4404-907a-d561cdb401bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: f986dd6b-b574-407c-8891-ba429a509c9a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 80921c9c-4c67-4baa-b360-9e7116fbc99c
+        userCondition: null
+fs: mediaImages
+handle: images
+name: Images
+sortOrder: 1
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

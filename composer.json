@@ -2,7 +2,15 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
+    "craftcms/ckeditor": "^4.0",
     "craftcms/cms": "^5.0.0",
+    "craftcms/query": "^3.1",
+    "nystudio107/craft-closure": "^1.0",
+    "nystudio107/craft-seomatic": "^5.0.0-beta.8",
+    "nystudio107/craft-vite": "^5.0@beta",
+    "studioespresso/craft-splashingimages": "^5.0",
+    "verbb/hyper": "^2.0@beta",
+    "verbb/navigation": "^3.0@beta",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

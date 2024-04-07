@@ -1,0 +1,64 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  c5ff46d9-2d8c-4a9f-9f96-d87615971618:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 787c4b98-838d-45e0-ba85-6cceebf89331
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e2883553-ca03-48ee-865e-a78933ec0067 # Caption
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 784d96dd-30ed-44c3-a627-aba5eb325995
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 410e623a-8ff1-49ad-a1fc-340ef2e0499f
+        userCondition: null
+fs: mediaVideos
+handle: videos
+name: Videos
+sortOrder: 2
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''
