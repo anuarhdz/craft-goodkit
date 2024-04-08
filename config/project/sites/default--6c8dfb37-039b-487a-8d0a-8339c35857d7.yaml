@@ -1,8 +1,9 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: '@web'
+enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: 'CraftCMS Goodkit'
+name: Goodkit
 primary: true
-siteGroup: 12b1eba7-eba9-4a9d-b427-47a4b9951704 # CraftCMS Goodkit
+siteGroup: 12b1eba7-eba9-4a9d-b427-47a4b9951704 # Goodkit
 sortOrder: 1
