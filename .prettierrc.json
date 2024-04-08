@@ -17,8 +17,18 @@
     "js,endjs",
     "css,endcss"
   ],
+  "overrides": [
+    {
+      "files": "*.php",
+      "options": {
+        "phpVersion": "8.2",
+        "tabWidth": 4
+      }
+    }
+  ],
   "plugins": [
     "@zackad/prettier-plugin-twig-melody",
+    "@prettier/plugin-php",
     "prettier-plugin-tailwindcss"
   ]
 }
