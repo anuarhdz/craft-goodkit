@@ -1,5 +1,8 @@
 {
-  "minimum-stability": "dev",
+  "name": "anuarhdz/craft-goodkit",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "^4.0",
