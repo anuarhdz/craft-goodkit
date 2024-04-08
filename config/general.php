@@ -18,13 +18,23 @@ return GeneralConfig::create()
   // Prevent generated URLs from including "index.php"
   ->omitScriptNameInUrls()
   // Preload Single entries as Twig variables
-  ->preloadSingles()
+  ->preloadSingles(false)
   // Prevent user enumeration attacks
   ->preventUserEnumeration()
+  // Enable Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
+  ->devMode(App::env('DEV_MODE') ?? false)
+  // Allow administrative changes
+  ->allowAdminChanges(App::env('ALLOW_ADMIN_CHANGES') ?? false)
+  // Disallow robots
+  ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? false)
   // Set the @webroot alias so the clear-caches command knows where to find CP resources
   ->aliases([
-    '@webroot' => dirname(__DIR__) . '/web',
+    '@webroot' => App::env('CRAFT_WEB_ROOT'),
     '@web' => App::env('PRIMARY_SITE_URL'),
     '@filesystemPath' => App::env('FILESYSTEM_PATH'),
     '@filesystemUrl' => App::env('FILESYSTEM_URL'),
+    '@viteDevUrl' => App::env('VITE_DEV_URL'),
+    '@viteServerPublic' => rtrim(App::env('PRIMARY_SITE_URL'), '/') . '/dist/',
+    '@viteDevServerPublic' => rtrim(App::env('PRIMARY_SITE_URL'), '/') . ':5173',
+    '@assets' => '@webroot/assets',
   ]);

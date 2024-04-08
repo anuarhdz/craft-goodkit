@@ -1,3 +1,13 @@
 {
-  "intelephense.environment.phpVersion": "8.2"
+  "intelephense.environment.phpVersion": "8.2",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[twig]": {
+    "editor.formatOnSave": true
+  }
 }
