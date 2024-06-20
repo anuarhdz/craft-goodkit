@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "rimraf ./web/dist",
     "build": "vite build"
   },
   "keywords": [],
@@ -20,6 +21,7 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "swup": "^4.6.1",
+    "rimraf": "^5.0.7",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.8",
     "vite-plugin-restart": "^0.4.0"
