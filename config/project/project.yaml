@@ -1,4 +1,4 @@
-dateModified: 1712538030
+dateModified: 1719559602
 email:
   fromEmail: anuar@hey.com
   fromName: 'CraftCMS Goodkit'
@@ -67,7 +67,7 @@ system:
   live: true
   name: Goodkit
   retryDuration: null
-  schemaVersion: 5.0.0.20
+  schemaVersion: 5.0.0.21
   timeZone: America/Mexico_City
 users:
   allowPublicRegistration: false
