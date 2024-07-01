@@ -13,11 +13,15 @@ This Craft CMS 5 starter kit is a modern front-end development workflow for Craf
 
 ## Getting Started
 
-In order to get started with Craft CMS Goodkit, you'll need to have docker and ddev installed on your machine. 
+### Prerequisites
 
-I love use [OrbStack](https://orbstack.dev/) as a Docker Desktop alternative, but you can use the official Docker Desktop as well. 
+In order to install and run this repository correctly, verify that you have installed:
 
-Refer to the [DDEV documentation](https://ddev.readthedocs.io/en/stable/) for more information on how to install DDEV.
+- [Docker](https://docker.com). I recommend using [OrbStack](https://orbstack.dev).
+- [DDEV](https://ddev.com/). Check the [installation documentation](https://ddev.readthedocs.io/en/stable/).
+- [VSCode](https://code.visualstudio.com/) and [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+
+### Installation from Scratch
 
 1. Make sure that you have Docker and DDEV installed.
 
@@ -25,5 +29,11 @@ Refer to the [DDEV documentation](https://ddev.readthedocs.io/en/stable/) for mo
 
 3. Run `ddev config --project-name=YOUR_PROJECT_NAME` to configure the DDEV environment. Replace `YOUR_PROJECT_NAME` with the name of your project.
 
-4. Navigate to the project directory and run `ddev start`. This will start the DDEV environment.
- 
+4. Navigate to the project directory and run `ddev start`. This will start the DDEV environment. If everything is configured correctly, you will see a message similar to the following: 
+
+```zsh
+Your project can be reached at https://YOUR_PROJECT_NAME.ddev.site https://127.0.0.1:XXXXX
+```
+5. Now you can run `ddev code` to open the project in VSCode. 
+
+If VSCode correctly starts the project inside a dev container and you can access the URL of your project, you have correctly configured the repository.
